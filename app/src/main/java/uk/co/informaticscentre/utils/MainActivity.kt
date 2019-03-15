@@ -18,13 +18,14 @@ class MainActivity : AppCompatActivity() {
     private val intervals: List<String>
         get() = object : ArrayList<String>() {
             init {
-                add("Auto")
+                add("Off")
                 add("5")
                 add("15")
                 add("50")
                 add("100")
                 add("300")
                 add("500")
+                add("Auto")
             }
         }
 
